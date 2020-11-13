@@ -1,10 +1,6 @@
 # Azure RTOS NetX Duo
 
-This advanced, industrial-grade TCP/IP network stack is designed specifically for deeply embedded real-time and IoT applications. Azure RTOS NetX Duo is a dual IPv4 and IPv6 network stack, while Azure RTOS NetX is the original IPv4 network stack, essentially a subset of Azure RTOS NetX Duo.
-
-## Documentation
-
-Documentation for this library can be found here: http://docs.microsoft.com/azure/rtos/netx-duo
+This branch features APIs for supporting Azure IoT PnP feature. It is based on NetX Duo 6.1.2 release.  The Azure IoT PnP APIs are located in the [addons/azure_iot](https://github.com/azure-rtos/netxduo/tree/feature/iot_pnp/addons/azure_iot) directory.
 
 
 ## Cloning the repo
@@ -13,16 +9,6 @@ Documentation for this library can be found here: http://docs.microsoft.com/azur
 $ git clone https://github.com/azure-rtos/netxduo.git
 $ git submodule update --init
 ```
-
-# Repository Structure and Usage
-
-## Branches & Releases
-
-The master branch has the most recent code with all new features and bug fixes. It does not represent the latest General Availability (GA) release of the library.
-
-## Releases
-
-Each official release (preview or GA) will be tagged to mark the commit and push it into the Github releases tab, e.g. `v6.1-rel`.
 
 ## Directory layout
 
